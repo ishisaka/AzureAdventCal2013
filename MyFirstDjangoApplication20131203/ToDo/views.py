@@ -2,8 +2,8 @@ from django.http import HttpResponse
 from django.template.loader import render_to_string
 from azure.storage import *
 
-account_name = 'advent2014'
-account_key = 'Jdvs+jCR0RV1sedMjg930HncLIOjn047oYvbyy2XGNVo+vCTW7L0S3R1b9WokX34fzPpWoUZ8sX9owSUd9sh+g=='
+account_name = '####'
+account_key = '#####'
 table_service = TableService(account_name=account_name, account_key=account_key);
 table_service.create_table('mytasks')
 
