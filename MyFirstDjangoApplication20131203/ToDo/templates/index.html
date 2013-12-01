@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title></title>
+    </head>     
+    <body>
+        <h2>My Tasks</h2> <br>     
+        <table border="1">
+            <tr>
+                <td>Name</td>
+                <td>Category</td>
+                <td>Date</td>
+                <td>Complete</td>
+                <td>Action</td>
+            </tr>     
+            {% for entity in entities %}     
+                <form action="update_task" method="GET">
+                    <tr>
+                        <td>{{entity.name}} <input type="hidden" name='name' value="{{entity.name}}"></td>     
+                        <td>{{entity.category}} 
+                            <input type="hidden" name='category' value="{{entity.category}}"></td>     
+                        <td>{{entity.date}} 
+                            <input type="hidden" name='date' value="{{entity.date}}">
+                        </td>     
+                        <td>{{entity.complete}} 
+                            <input type="hidden" name='complete' value="{{entity.complete}}">
+                        </td>      
+                        <td>
+                            <input type="submit" value="Complete">
+                        </td>     
+                    </tr>     
+                </form>     
+            {% endfor %}     
+        </table>     
+        <br>     
+        <hr>    
+        <table border="1">
+            <form action="add_task" method="GET">
+                <tr>
+                    <td>Name:</td
+                    ><td><input type="text" name="name"></input></td>
+                </tr>     
+                <tr>
+                    <td>Category:</td>
+                    <td><input type="text" name="category"></input></td>
+                </tr>     
+                <tr>
+                    <td>Item Date:</td>
+                    <td><input type="text" name="date"></input></td>
+                </tr>     
+                <tr>
+                    <td><input type="submit" value="add task"></input></td>
+                </tr>     
+            </form>     
+        </table>     
+    </body>     
+</html>

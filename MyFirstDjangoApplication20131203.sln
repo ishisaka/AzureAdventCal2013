@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MyFirstDjangoApplication20131203", "MyFirstDjangoApplication20131203\MyFirstDjangoApplication20131203.pyproj", "{B04FFEC4-9BF0-4FC2-9B93-64DFD7CE43DF}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "MyFirstDjangoApplication20131203.Azure", "MyFirstDjangoApplication20131203.Azure\MyFirstDjangoApplication20131203.Azure.ccproj", "{DFB30393-F5CC-4587-AA4B-D0154070E3EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B04FFEC4-9BF0-4FC2-9B93-64DFD7CE43DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04FFEC4-9BF0-4FC2-9B93-64DFD7CE43DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04FFEC4-9BF0-4FC2-9B93-64DFD7CE43DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04FFEC4-9BF0-4FC2-9B93-64DFD7CE43DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB30393-F5CC-4587-AA4B-D0154070E3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB30393-F5CC-4587-AA4B-D0154070E3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB30393-F5CC-4587-AA4B-D0154070E3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB30393-F5CC-4587-AA4B-D0154070E3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
